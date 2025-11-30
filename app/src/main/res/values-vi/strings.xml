@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">heliumLabs</string>
+    <string name="home">Trang chủ</string>
+    <string name="settings">Cài đặt</string>
+    <string name="device_information">Thông tin thiết bị</string>
+    <string name="device_name">Tên thiết bị</string>
+    <string name="android_version">Phiên bản Android</string>
+    <string name="model">Mẫu</string>
+    <string name="manufacturer">Nhà sản xuất</string>
+    <string name="build_number">Số bản dựng</string>
+    <string name="security_patch">Bản vá bảo mật</string>
+    <string name="kernel_version">Phiên bản Kernel</string>
+    <string name="esim_provider">Nhà cung cấp (e)SIM</string>
+    <string name="fingerprint">Dấu vân tay</string>
+    <string name="theme">Chủ đề</string>
+    <string name="language">Ngôn ngữ</string>
+    <string name="kernel_status">Trạng thái kernel</string>
+    <string name="theme_light">Sáng</string>
+    <string name="theme_dark">Tối</string>
+    <string name="theme_system">Theo hệ thống</string>
+</resources>
