@@ -158,7 +158,6 @@ fun HomeScreen(modifier: Modifier = Modifier) {
     val telephonyManager = context.getSystemService(TELEPHONY_SERVICE) as TelephonyManager
     val simProvider = telephonyManager.simOperatorName
     val isKsInstalled = isKernelSuInstalled()
-    val kernelSuStatus = if (isKsInstalled) stringResource(id = R.string.kernelsu_yes) else stringResource(id = R.string.kernelsu_no)
 
     Column(
         modifier = modifier
@@ -190,7 +189,6 @@ fun HomeScreen(modifier: Modifier = Modifier) {
                 DeviceInfoRow(stringResource(id = R.string.build_number), Build.DISPLAY)
                 DeviceInfoRow(stringResource(id = R.string.security_patch), Build.VERSION.SECURITY_PATCH)
                 DeviceInfoRow(stringResource(id = R.string.kernel_version), System.getProperty("os.version"))
-                DeviceInfoRow(stringResource(id = R.string.kernelsu_status), kernelSuStatus)
                 DeviceInfoRow(stringResource(id = R.string.esim_provider), simProvider)
                 DeviceInfoRow(stringResource(id = R.string.fingerprint), Build.FINGERPRINT)
             }
